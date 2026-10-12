@@ -29,7 +29,8 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "https://sef-lab-11-nine.vercel.app",
-                "https://sef-lab-11-o5wmzn6lc-saneths-projects.vercel.app"
+                "https://sef-lab-11-o5wmzn6lc-saneths-projects.vercel.app",
+                "https://it-24103639-lab011-project.vercel.app"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
